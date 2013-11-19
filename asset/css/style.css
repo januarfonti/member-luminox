@@ -1,0 +1,130 @@
+
+
+ .img-thumbnail {
+  display: inline-block;
+  height: auto;
+  max-width: 180px;
+  max-height: 180px;
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+.media {
+	padding: 10px 0px 10px 0px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  background: #1d1d1d;
+  
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  margin-right: 10;
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #3e3e3e;
+  border-radius: 4px;
+}
+
+.breadcrumb > li {
+  display: inline-block;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #cccccc;
+  content: "/\00a0";
+}
+
+.breadcrumb > .active {
+  color: #999999;
+}
+
+#tabel {
+  font-color: #000000;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+  color: #ffffff;
+}
+
+#panel-body {
+
+  font-color: #000;
+}
+
+.navbar {
+  
+  color: #e2001a;
+}
+
+
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #e2001a;
+  color: #ffffff;
+  border-color: #080808;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#isi {
+  color: #ffffff;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar {
+  background-color: #e2001a;
+  border-color: #080808;
+}

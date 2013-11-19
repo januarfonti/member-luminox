@@ -1,0 +1,79 @@
+body {
+  padding-top: 150px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+small {
+	background:url(../images/alpha.png);
+	background:rgba(0, 0, 0, 0.8) url();	
+	border:1px solid #111;
+	font-size:50px;
+	padding:0 5px;
+}
+
+span {
+	font-size:30px;
+		border:1px solid #111;
+		background:url(../images/alpha.png);
+		background:rgba(0, 0, 0, 0.8) url();
+		padding:0 15px;
+}
+
+p {
+	margin-top: -30px;
+	margin-bottom:-40px;
+}
+
+.kotak {
+  padding-top: 30px;
+  color: #ffffff;
+  font-family: 'Cantora One', sans-serif;
+  font-size: 60px;
+}
+
+.judul {
+background:url(../images/alpha.png);
+	background:rgba(0, 0, 0, 0.8) url();	
+	border:1px solid #111;
+	font-size:15px;
+	padding:0 5px;
+}
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 50px auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
