@@ -62,13 +62,13 @@ class Admin extends CI_Controller
 			$crud->set_table('user_profiles');
 			$crud->set_relation('regist','tbl_venue','venue');
 			$crud->set_relation('state_id','master_state','state_name');
-			$crud->set_relation('id','users','{email} / Login Terakhir {last_login} / Dibuat {created} ');
+			$crud->set_relation('id','users','{email}');
 			$crud->display_as('state_id','Provinsi');
 			$crud->display_as('regist','Registrasi');
-			$crud->display_as('id','Email / Status');
+			$crud->display_as('id','Email');
 			$crud->set_subject('Member');
 			$crud->required_fields('regist,nama,alamat,kota,state_id,ttl');
-			$crud->columns('no_member','regist','nama','alamat','kota','state_id','ttl');
+			$crud->columns('no_member','regist','nama','alamat','kota','state_id','ttl','id');
 			$crud->fields('no_member','regist','nama','alamat','kota','state_id','ttl','id');
 			$crud->edit_fields('no_member','regist','nama','alamat','kota','state_id','ttl','id');
 			$crud->field_type('no_member', 'readonly');
